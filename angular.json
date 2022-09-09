@@ -100,8 +100,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/dark-theme/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "eb3ba822-7d9b-4208-957e-45a5c8990376"
   }
 }
